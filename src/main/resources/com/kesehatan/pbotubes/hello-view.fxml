@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kesehatan.pbotubes.MainController">
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="236.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+<!--                <Image url="com/kesehatan/image/Hakim.png" />-->
+            </image>
+        </ImageView>
+        <TextField fx:id="namaPasienField" alignment="TOP_CENTER" layoutX="219.0" layoutY="241.0" promptText="Masukkan Nama" />
+        <Button layoutX="268.0" layoutY="281.0" mnemonicParsing="false" text="Masuk" fx:id="masukButton" onAction="#goToMenu" />
+    </children>
+</AnchorPane>
